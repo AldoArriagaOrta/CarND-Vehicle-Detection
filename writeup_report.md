@@ -1,8 +1,8 @@
-## Writeup Template
+## Vehicle Detection Project
 
 ---
 
-**Vehicle Detection Project**
+**Goals**
 
 The goals / steps of this project are the following:
 
@@ -162,11 +162,8 @@ This is implemented in function `pipeline()`shown in lines 377 through 432 of th
 Here's an example result showing the heatmap from a series of frames of video, the result of `scipy.ndimage.measurements.label()` and the bounding boxes then overlaid on the last frame of video:
 
 ### Here are a couple of frames with the output boxes and the corresponding heatmaps used to build them:
-
 ![alt text][image4]
-
 ![alt text][image5]
-
 ### Here is the output of `scipy.ndimage.measurements.label()` on the integrated heatmap from the shown frames:
 
 ![alt text][image6]
@@ -178,8 +175,6 @@ Here's an example result showing the heatmap from a series of frames of video, t
 ![alt text][image8]
 
 ![alt text][image9]
-
-
 
 ---
 
